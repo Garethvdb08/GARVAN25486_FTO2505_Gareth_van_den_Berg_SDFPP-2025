@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Proficiency Bars */
+      .bar-container {
+        background: #e5e7eb;
+        border-radius: 3px;
+        height: 6px;
+        width: 100%;
+        margin-left: 1rem;
+        position: relative;
+      }
+      .bar-html {
+        background: #396b5e;
+        border-radius: 3px;
+        height: 100%;
+        width: 90%;
+      }
+      .bar-css {
+        background: #396b5e;
+        border-radius: 3px;
+        height: 100%;
+        width: 80%;
+      }
+      .bar-js {
+        background: #396b5e;
+        border-radius: 3px;
+        height: 100%;
+        width: 1%;
+      }
+      .bar-tailwind {
+        background: #396b5e;
+        border-radius: 3px;
+        height: 100%;
+        width: 70%;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-gray-50 min-h-screen flex flex-col items-center justify-center"
+  >
+    <main
+      class="w-full max-w-4xl mx-auto p-2 bg-white rounded-xl shadow-lg mt-4"
+    >
+      <div class="grid grid-cols-1 grid-cols-2 gap-[20px] gap-8">
+        <!-- 1 & 2: Profile Pic and Name & Surname -->
+        <section class="col-span-2">
+          <div
+            class="flex flex-col sm:flex-row items-center sm:items-center bg-[#FFFFFF] p-[24px] rounded-[12px] shadow-[0_4px_3px_#DADADA]"
+          >
+            <img
+              class="w-[96px] h-[96px] sm:w-[144px] sm:h-[144px] rounded-[24px] border-2 object-cover shadow-md m-2.5"
+              src="images/pfp 1.jpeg"
+              alt="profile picture of Gareth van den Berg"
+            />
+            <div class="sm:ml-8 text-center sm:text-left mt-4 sm:mt-0">
+              <h1
+                class="font-bold font-inter text-[18px] sm:text-[22px] text-[#000] mb-[16px]"
+              >
+                Gareth van den Berg
+              </h1>
+              <p
+                class="leading-[24px] max-w-[520px] text-[14px] sm:text-[16px] text-[#4A4A4A] font-inter"
+              >
+                Digital Craftsman & enthusiastic software developer skilled in
+                HTML, CSS, and Tailwind. Experienced in building dynamic,
+                responsive web apps and turning complex ideas into user-friendly
+                interfaces.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- 3: Proficiency -->
+        <section class="flex flex-col justify-between">
+          <div
+            class="bg-[#FFFFFF] p-[20px] rounded-[12px] shadow-[0_4px_3px_#DADADA] h-full"
+          >
+            <h2 class="font-bold text-lg mb-4">Proficiency</h2>
+            <h3 class="font-bold text-[14px] font-inter text-[#000] mb-4">
+              Beginner Intermediate Advanced*
+            </h3>
+            <div class="space-y-2">
+              <!-- HTML -->
+              <div class="flex items-center">
+                <span class="w-40 text-[16px] font-inter text-[#222]"
+                  >HTML</span
+                >
+                <div class="bar-container w-full max-w-full">
+                  <div class="bar-html"></div>
+                </div>
+              </div>
+              <!-- CSS -->
+              <div class="flex items-center">
+                <span class="w-40 text-[16px] font-inter text-[#222]">CSS</span>
+                <div class="bar-container w-full max-w-full">
+                  <div class="bar-css"></div>
+                </div>
+              </div>
+              <!-- JavaScript -->
+              <div class="flex items-center">
+                <span class="w-40 text-[16px] font-inter text-[#222]"
+                  >JavaScript</span
+                >
+                <div class="bar-container w-full max-w-full">
+                  <div class="bar-js"></div>
+                </div>
+              </div>
+              <!-- Tailwind -->
+              <div class="flex items-center">
+                <span class="w-40 text-[16px] font-inter text-[#222]"
+                  >Tailwind</span
+                >
+                <div class="bar-container w-full max-w-full">
+                  <div class="bar-tailwind"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 4: Skills -->
+        <section class="flex flex-col justify-between">
+          <div
+            class="bg-[#FFFFFF] p-[20px] rounded-[12px] shadow-[0_4px_3px_#DADADA] h-full"
+          >
+            <h2 class="font-bold text-lg mb-4">Skills</h2>
+            <ul class="flex flex-wrap gap-2 mt-2 justify-center">
+              <li
+                class="bg-[#ECF4F1] hover:bg-[#d2e7df] text-[#000] px-[14px] py-[8px] rounded-[6px] text-[14px] font-medium font-inter text-center"
+              >
+                Problem Solving
+              </li>
+              <li
+                class="bg-[#ECF4F1] hover:bg-[#d2e7df] text-[#000] px-[14px] py-[8px] rounded-[6px] text-[14px] font-medium font-inter text-center"
+              >
+                Web Development
+              </li>
+              <li
+                class="bg-[#ECF4F1] hover:bg-[#d2e7df] text-[#000] px-[14px] py-[8px] rounded-[6px] text-[14px] font-medium font-inter text-center"
+              >
+                Git & Version Control
+              </li>
+              <li
+                class="bg-[#ECF4F1] hover:bg-[#d2e7df] text-[#000] px-[14px] py-[8px] rounded-[6px] text-[14px] font-medium font-inter text-center"
+              >
+                Responsive Design
+              </li>
+              <li
+                class="bg-[#ECF4F1] hover:bg-[#d2e7df] text-[#000] px-[14px] py-[8px] rounded-[6px] text-[14px] font-medium font-inter text-center"
+              >
+                Project Management
+              </li>
+              <li
+                class="bg-[#ECF4F1] hover:bg-[#d2e7df] text-[#000] px-[14px] py-[8px] rounded-[6px] text-[14px] font-medium font-inter text-center"
+              >
+                Adaptability
+              </li>
+              <li
+                class="bg-[#ECF4F1] hover:bg-[#d2e7df] text-[#000] px-[14px] py-[8px] rounded-[6px] text-[14px] font-medium font-inter text-center"
+              >
+                Critical Thinking
+              </li>
+              <li
+                class="bg-[#ECF4F1] hover:bg-[#d2e7df] text-[#000] px-[14px] py-[8px] rounded-[6px] text-[14px] font-medium font-inter text-center"
+              >
+                Creativity
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- 5: Projects (spans both columns) -->
+        <section class="col-span-2">
+          <!-- Projects content -->
+        </section>
+        <!-- 6: Education -->
+        <section>
+          <!-- Education content -->
+        </section>
+        <!-- 7: Tools -->
+        <section>
+          <!-- Tools content -->
+        </section>
+        <!-- 8: Experience (spans both columns) -->
+        <section class="col-span-2">
+          <!-- Experience content -->
+        </section>
+        <!-- 9: Footer (spans both columns) -->
+        <footer class="col-span-2">
+          <!-- Footer content -->
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
