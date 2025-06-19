@@ -45,7 +45,7 @@
     class="bg-gray-50 min-h-screen flex flex-col items-center justify-center"
   >
     <main
-      class="w-full max-w-4xl mx-auto p-2 bg-white rounded-xl shadow-lg mt-4"
+      class="w-full max-w-4xl mx-auto p-2 bg-gray-200 rounded-xl shadow-lg mt-4"
     >
       <div class="grid grid-cols-1 grid-cols-2 gap-[20px] gap-8">
         <!-- 1 & 2: Profile Pic and Name & Surname -->
@@ -180,8 +180,22 @@
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             <!-- Portfolio Website (green) -->
             <div
-              class="flex flex-col h-full rounded-[12px] shadow-[0_4px_2px_#DADADA] p-4 bg-[#2E6E5B] text-[#FFFFFF]"
+              class="flex flex-col h-full rounded-[12px] shadow-[0_4px_2px_#DADADA] p-4 bg-[#2E6E5B] text-[#FFFFFF] relative"
             >
+              <!-- Heart Icon (red) -->
+              <span class="absolute top-2 right-2">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="#D9534F"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                  />
+                </svg>
+              </span>
               <h3 class="font-bold text-[18px] text-[#FFF] font-inter mb-2">
                 Portfolio Website
               </h3>
@@ -199,8 +213,22 @@
             </div>
             <!-- Podcast App (white) -->
             <div
-              class="flex flex-col h-full rounded-[12px] shadow-[0_4px_2px_#DADADA] p-4 bg-[#FFFFFF] text-[#000]"
+              class="flex flex-col h-full rounded-[12px] shadow-[0_4px_2px_#DADADA] p-4 bg-[#FFFFFF] text-[#000] relative"
             >
+              <!-- Heart Icon (grey) -->
+              <span class="absolute top-2 right-2">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="#CCCCCC"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                  />
+                </svg>
+              </span>
               <h3 class="font-bold text-[18px] text-[#000] font-inter mb-2">
                 Podcast App
               </h3>
@@ -222,8 +250,22 @@
             </div>
             <!-- Agile Board (white) -->
             <div
-              class="flex flex-col h-full rounded-[12px] shadow-[0_4px_2px_#DADADA] p-4 bg-[#FFFFFF] text-[#000]"
+              class="flex flex-col h-full rounded-[12px] shadow-[0_4px_2px_#DADADA] p-4 bg-[#FFFFFF] text-[#000] relative"
             >
+              <!-- Heart Icon (grey) -->
+              <span class="absolute top-2 right-2">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="#CCCCCC"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                  />
+                </svg>
+              </span>
               <h3 class="font-bold text-[18px] text-[#000] font-inter mb-2">
                 Agile Board
               </h3>
@@ -242,8 +284,22 @@
             </div>
             <!-- Super Cool Project (white) -->
             <div
-              class="flex flex-col h-full rounded-[12px] shadow-[0_4px_2px_#DADADA] p-4 bg-[#FFFFFF] text-[#000]"
+              class="flex flex-col h-full rounded-[12px] shadow-[0_4px_2px_#DADADA] p-4 bg-[#FFFFFF] text-[#000] relative"
             >
+              <!-- Heart Icon (grey) -->
+              <span class="absolute top-2 right-2">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="#CCCCCC"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+                  />
+                </svg>
+              </span>
               <h3 class="font-bold text-[18px] text-[#000] font-inter mb-2">
                 Super Cool Project
               </h3>
@@ -265,21 +321,17 @@
           </div>
         </section>
         <!-- 6: Education -->
-        <section class="col-span-2 flex flex-col items-start">
-          <h2 class="font-bold text-3xl mb-6 mt-2 text-[#222]">Education</h2>
-          <div class="flex flex-col gap-4 w-full sm:w-[60%]">
+        <section class="flex flex-col items-center">
+          <div
+            class="flex flex-col w-[430px] h-full rounded-[12px] shadow-[0_4px_2px_#DADADA] p-4 bg-[#FFFFFF] text-[#000] gap-6"
+          >
+            <h2 class="font-bold text-3xl mb-6 mt-2 text-[#000]">Education</h2>
             <!-- CodeSpace Academy (Most Recent) -->
             <div
-              class="relative flex-shrink-0 bg-[#2E6E5B] text-white rounded-[12px] shadow-[0_2px_8px_#dadada] flex flex-row items-stretch w-[540px] h-[160px] mx-auto overflow-hidden"
+              class="relative flex-shrink-0 bg-[#2E6E5B] text-white rounded-[12px] shadow-[0_2px_8px_#dadada] flex flex-row items-stretch w-full min-h-[120px] overflow-hidden mb-4"
             >
-              <div class="absolute top-3 right-3 z-20">
-                <span
-                  class="bg-[#D9534F] text-white text-[12px] font-semibold px-3 py-1 rounded-[8px]"
-                  >Most Recent</span
-                >
-              </div>
               <div
-                class="flex flex-col justify-center min-w-[200px] pl-6 pr-2 py-4"
+                class="flex flex-col justify-center min-w-[160px] pl-6 pr-2 py-4"
               >
                 <div
                   class="font-inter font-normal text-[14px] text-[#FFF] leading-[20px]"
@@ -298,7 +350,7 @@
                 </div>
               </div>
               <ul
-                class="list-disc ml-4 pl-2 flex flex-col justify-center text-left text-[12px] leading-[18px] font-inter space-y-1 w-full max-w-[270px]"
+                class="list-disc ml-4 pl-2 flex flex-col justify-center text-left text-[12px] leading-[18px] font-inter space-y-1 w-full max-w-[320px]"
               >
                 <li>
                   Focused on React and JavaScript to build intuitive, dynamic
@@ -316,10 +368,10 @@
             </div>
             <!-- CPUT -->
             <div
-              class="flex-shrink-0 bg-[#F5F7F6] text-[#222] rounded-[12px] shadow-[0_2px_8px_#dadada] flex flex-row items-stretch w-[540px] h-[160px] mx-auto"
+              class="flex-shrink-0 bg-[#F5F7F6] text-[#222] rounded-[12px] shadow-[0_2px_8px_#dadada] flex flex-row items-stretch w-full min-h-[120px] mb-4"
             >
               <div
-                class="flex flex-col justify-center min-w-[200px] pl-6 pr-2 py-4"
+                class="flex flex-col justify-center min-w-[160px] pl-6 pr-2 py-4"
               >
                 <div
                   class="font-inter font-normal text-[14px] text-[#4A4A4A] leading-[20px]"
@@ -338,7 +390,7 @@
                 </div>
               </div>
               <ul
-                class="list-disc ml-4 pl-2 flex flex-col justify-center text-left text-[12px] leading-[18px] font-inter space-y-1 w-full max-w-[270px]"
+                class="list-disc ml-4 pl-2 flex flex-col justify-center text-left text-[12px] leading-[18px] font-inter space-y-1 w-full max-w-[320px]"
               >
                 <li>
                   Gained a strong foundation in mechanical systems and product
@@ -356,10 +408,10 @@
             </div>
             <!-- Stellenbosch High -->
             <div
-              class="flex-shrink-0 bg-[#F5F7F6] text-[#222] rounded-[12px] shadow-[0_2px_8px_#dadada] flex flex-row items-stretch w-[540px] h-[160px] mx-auto"
+              class="flex-shrink-0 bg-[#F5F7F6] text-[#222] rounded-[12px] shadow-[0_2px_8px_#dadada] flex flex-row items-stretch w-full min-h-[120px]"
             >
               <div
-                class="flex flex-col justify-center min-w-[200px] pl-6 pr-2 py-4"
+                class="flex flex-col justify-center min-w-[160px] pl-6 pr-2 py-4"
               >
                 <div
                   class="font-inter font-normal text-[14px] text-[#4A4A4A] leading-[20px]"
@@ -378,7 +430,7 @@
                 </div>
               </div>
               <ul
-                class="list-disc ml-4 pl-2 flex flex-col justify-center text-left text-[12px] leading-[18px] font-inter space-y-1 w-full max-w-[270px]"
+                class="list-disc ml-4 pl-2 flex flex-col justify-center text-left text-[12px] leading-[18px] font-inter space-y-1 w-full max-w-[320px]"
               >
                 <li>
                   Built core academic skills and developed an early passion for
@@ -394,21 +446,253 @@
         </section>
         <!-- 7: Tools -->
         <section
-          class="bg-[#FFFFFF] p-[20px] rounded-[12px] shadow-[0_4px_3px_#DADADA] h-full"
+          class="bg-[#FFFFFF] p-[10px] rounded-[12px] shadow-[0_4px_3px_#DADADA] w-[200] h-[200]"
         >
           <!-- Tools content -->
+          <h2 class="font-bold text-3xl mb-6 mt-2 text-[#000] text-center">
+            Tools
+          </h2>
+          <h3
+            class="w-[180px] bg-black text-[#FFFFFF] px-4 py-2 rounded-full text-[16px] font-medium font-inter text-center mb-4 mx-auto flex items-center justify-center gap-2"
+          >
+            Languages
+          </h3>
+          <div
+            class="flex justify-center items-center gap-2 mb-4 bg-[#cccccc] w-[180px] mx-auto p-4 rounded-full shadow-md"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML"
+              class="w-6 h-6"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="CSS"
+              class="w-6 h-6"
+            />
+            <img
+              src="https://www.svgrepo.com/show/374118/tailwind.svg"
+              alt="Tailwind"
+              class="w-6 h-6"
+            />
+          </div>
+          <h3
+            class="w-[180px] bg-black text-[#FFFFFF] px-4 py-2 rounded-full text-[16px] font-medium font-inter text-center mb-4 mx-auto flex items-center justify-center gap-2"
+          >
+            Design
+          </h3>
+          <div
+            class="flex justify-center items-center gap-2 mb-4 bg-[#cccccc] w-[180px] mx-auto p-4 rounded-full shadow-md"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
+              alt="Google"
+              class="w-6 h-6"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+              alt="Microsoft"
+              class="w-6 h-6"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+              alt="Figma"
+              class="w-6 h-6"
+            />
+          </div>
+          <h3
+            class="w-[180px] bg-black text-[#FFFFFF] px-4 py-2 rounded-full text-[16px] font-medium font-inter text-center mb-4 mx-auto flex items-center justify-center gap-2"
+          >
+            Tools
+          </h3>
+          <div
+            class="flex justify-center items-center gap-2 mb-4 bg-[#cccccc] w-[180px] mx-auto p-4 rounded-full shadow-md"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              alt="Git"
+              class="w-6 h-6"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              alt="GitHub"
+              class="w-6 h-6"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+              alt="VSCode"
+              class="w-6 h-6"
+            />
+          </div>
         </section>
         <!-- 8: Experience (spans both columns) -->
         <section
           class="col-span-2 bg-[#FFFFFF] p-[20px] rounded-[12px] shadow-[0_4px_3px_#DADADA] h-full"
         >
           <!-- Experience content -->
+          <div
+            class="flex flex-col w-[auto] h-full rounded-[12px] shadow-[0_4px_2px_#DADADA] p-4 bg-[#FFFFFF] text-[#000] gap-6"
+          >
+            <h2 class="font-bold text-3xl mb-6 mt-2 text-[#000]">Experience</h2>
+            <!-- CodeSpace Academy (Most Recent) -->
+
+            <div
+              class="relative flex-shrink-0 bg-[#2E6E5B] text-white rounded-[12px] shadow-[0_2px_8px_#dadada] flex flex-row items-stretch w-full min-h-[120px] overflow-hidden mb-4"
+            >
+              <div class="absolute top-3 right-3 z-20">
+                <span
+                  class="bg-[#D9534F] text-white text-[12px] font-semibold px-3 py-1 rounded-[8px]"
+                  >Most Recent</span
+                >
+              </div>
+              <div
+                class="flex flex-col justify-center min-w-[160px] pl-6 pr-2 py-4"
+              >
+                <div
+                  class="font-inter font-normal text-[14px] text-[#FFF] leading-[20px]"
+                >
+                  Aug 2024 - July 2026
+                </div>
+                <div
+                  class="font-inter font-bold text-[18px] text-[#FFF] mt-0 mb-3"
+                >
+                  Book Clerk
+                </div>
+                <div
+                  class="font-inter font-normal text-[14px] text-[#FFF] leading-[20px]"
+                >
+                  Readers' Haven<br />Full-time
+                </div>
+              </div>
+              <ul
+                class="list-disc ml-4 pl-2 flex flex-col justify-center text-left text-[12px] leading-[18px] font-inter space-y-1 w-full max-w-[320px]"
+              >
+                <li>
+                  Organized and shelved new arrivals, ensuring a clean and
+                  enticing store layout
+                </li>
+                <li>
+                  Assisted customers with personalized book recommendations
+                  boosting sales
+                </li>
+                <li>
+                  Handled point of sale transactions and updated inventory
+                  records
+                </li>
+              </ul>
+            </div>
+            <!-- Tech Solutions (Sales | Cell Contracts) -->
+            <div
+              class="flex-shrink-0 bg-[#F5F7F6] text-[#222] rounded-[12px] shadow-[0_2px_8px_#dadada] flex flex-row items-stretch w-full min-h-[120px] mb-4"
+            >
+              <div
+                class="flex flex-col justify-center min-w-[160px] pl-6 pr-2 py-4"
+              >
+                <div
+                  class="font-inter font-normal text-[14px] text-[#4A4A4A] leading-[20px]"
+                >
+                  Jan 2023 - Jul 2024
+                </div>
+                <div
+                  class="font-inter font-bold text-[18px] text-[#000] mt-0 mb-3"
+                >
+                  Sales | Cell Contracts
+                </div>
+                <div
+                  class="font-inter font-normal text-[14px] text-[#4A4A4A] leading-[20px]"
+                >
+                  Tech Solutions<br />Full-time
+                </div>
+              </div>
+              <ul
+                class="list-disc ml-4 pl-2 flex flex-col justify-center text-left text-[12px] leading-[18px] font-inter space-y-1 w-full max-w-[320px]"
+              >
+                <li>
+                  Advised customers on the best mobile plans and devices,
+                  driving consistent contract sign-up
+                </li>
+                <li>
+                  Handled escalated customer inquiries, maintaining high
+                  satisfaction ratings
+                </li>
+                <li>
+                  Partnered with team members to meet monthly sales targets and
+                  achieve store goals
+                </li>
+              </ul>
+            </div>
+            <!-- The Bistro House (Waiter) -->
+            <div
+              class="flex-shrink-0 bg-[#F5F7F6] text-[#222] rounded-[12px] shadow-[0_2px_8px_#dadada] flex flex-row items-stretch w-full min-h-[120px]"
+            >
+              <div
+                class="flex flex-col justify-center min-w-[160px] pl-6 pr-2 py-4"
+              >
+                <div
+                  class="font-inter font-normal text-[14px] text-[#4A4A4A] leading-[20px]"
+                >
+                  Feb 2021 - Dec 2022
+                </div>
+                <div
+                  class="font-inter font-bold text-[18px] text-[#000] mt-0 mb-3"
+                >
+                  Waiter
+                </div>
+                <div
+                  class="font-inter font-normal text-[14px] text-[#4A4A4A] leading-[20px]"
+                >
+                  The Bistro House<br />Part-time
+                </div>
+              </div>
+              <ul
+                class="list-disc ml-4 pl-2 flex flex-col justify-center text-left text-[12px] leading-[18px] font-inter space-y-1 w-full max-w-[320px]"
+              >
+                <li>
+                  Delivered attentive table service, promptly addressing guests'
+                  needs and requests
+                </li>
+                <li>
+                  Promoted menu specials and upsold items to enhance the dining
+                  experience
+                </li>
+                <li>
+                  Collaborated with kitchen staff to ensure seamless service and
+                  timely meal delivery
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
         <!-- 9: Footer (spans both columns) -->
         <footer class="col-span-2">
           <!-- Footer content -->
+          <div
+            class="bg-[#D76239] p-[20px] rounded-[12px] shadow-[0_4px_3px_#DADADA] h-full"
+          >
+            <div
+              class="font-medium text-3xl mb-2 mt-2 text-[#FFFFFF] text-start px-4"
+            >
+              <h2>Let's chat! I'm ready to work on existing projects</h2>
+              <p class="text-lg text-[#FFFFFF] mt-2 mb-4">
+                garethvdb18@gmail.com | 084 457 1122 |
+                <a
+                  href="https://www.linkedin.com/in/gareth-van-den-berg-7b8295221/"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+                |
+                <a href="https://github.com/Garethvdb08" target="_blank"
+                  >GitHub</a
+                >
+              </p>
+              <p class="text-sm">
+                &copy; 2025 Gareth van den Berg. All rights reserved.
+              </p>
+            </div>
+          </div>
         </footer>
       </div>
+      <!--Grid Container-->
     </main>
   </body>
 </html>
